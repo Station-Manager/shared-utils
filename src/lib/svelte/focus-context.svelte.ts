@@ -219,7 +219,7 @@ class FocusRefsClass implements FocusRefs {
     // Station Panel inputs
     operatorCallsignInput: HTMLInputElement | null = $state(null);
 
-    // Info Panel inputs
+    // Info Panel inputs and logbook forward by email
     fwdSessionEmailInput: HTMLInputElement | null = $state(null);
 
     // Modal inputs
