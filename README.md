@@ -2,6 +2,12 @@
 
 Shared utility functions and Svelte utilities for Station Manager applications.
 
+## Build
+
+```bash
+npm run build
+```
+
 ## Installation
 
 ```bash
