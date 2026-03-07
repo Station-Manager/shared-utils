@@ -93,11 +93,8 @@ export function formatTimeSecondsToHHColonMMColonSS(seconds: number): string {
  * @return {string} The formatted date string in 'YYYY-MM-DD' format. Throws an error if the input string length is invalid.
  */
 export function formatDate(dateStr: string | undefined): string {
-    if (dateStr === undefined) {
+    if (dateStr === undefined || dateStr.length !== 8) {
         return '';
-    }
-    if (dateStr.length !== 8) {
-        throw new Error('Invalid date string length');
     }
     const year: string = dateStr.slice(0, 4);
     const month: string = dateStr.slice(4, 6);
